@@ -5,7 +5,7 @@ import subprocess
 import numpy as np
 from ultralytics import YOLO
 from ultralytics.engine.results import Results
-from _collections import deque
+from collections import deque
 from deep_sort_realtime.deepsort_tracker import DeepSort
 from stqdm import stqdm
 import streamlit as st
